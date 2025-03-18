@@ -1,74 +1,82 @@
 # Cyber-Mailler
 
-A powerful mail server testing tool designed to verify email server configurations and test email delivery capabilities.
+Güclü bir mail sunucu test aracı. E-posta sunucu yapılandırmalarını doğrulamak ve e-posta teslim yeteneklerini test etmek için tasarlanmıştır.
 
-## 🚀 Features
+## 🚀 Özellikler
 
-- Multiple email testing services support
-- Direct SMTP server testing
-- MX record verification
-- API-key free operation
-- Animated terminal interface
-- Multi-threaded service checking
+- Birden fazla e-posta test servisi desteği
+- Doğrudan SMTP sunucu testi
+- MX kaydı doğrulaması
+- API anahtarı gerektirmeyen kullanım
+- Animasyonlu terminal arayüzü
+- Çoklu iş parçacığı (multi-thread) ile servis kontrolü
 
-## 📋 Prerequisites
+## 📋 Gereksinimler
 
-- Python 3.7 or higher
+- Python 3.7 veya daha üstü
 - Windows/Linux/MacOS
 
-## 🔧 Installation
+## 🔧 Kurulum
 
-1. Clone the repository:
+1. Depoyu klonlayın:
 ```bash
-git clone https://github.com/captaingmc/cyber-mailler.git
+ git clone https://github.com/captainmgc/CyberMailler.git
 ```
 
-2. Install required packages:
+2. Gerekli paketleri yükleyin:
 ```bash
-pip install -r requirements.txt
+ pip install -r requirements.txt
 ```
 
-## 💻 Usage
+## 💻 Kullanım
 
-Run the script:
+Script'i çalıştırın:
 ```bash
-python cyber-mailler.py
+ python cyber-mailler.py
 ```
 
-Follow the interactive prompts to:
-1. Select a mail testing service
-2. Enter recipient email address
-3. Provide subject and message content
-4. View test results
+Etkileşimli komut istemini takip edin:
+1. Bir mail test servisi seçin
+2. Alıcı e-posta adresini girin
+3. Konu ve mesaj içeriğini sağlayın
+4. Test sonuçlarını görüntüleyin
 
-## 🛠️ Available Services
+## 🛠️ Kullanılabilir Servisler
 
-- FormSubmit - API key-free form-to-email converter
-- Anonymous Email - Simple web-based form submission
-- Web Form - HTML form submission technique
-- Direct SMTP - Tests recipient's mail server directly
+- **FormSubmit** - API anahtarı gerektirmeyen form-email dönüştürücü
+- **Anonymous Email** - Basit web tabanlı form gönderimi
+- **Web Form** - HTML form gönderimi tekniği
+- **Direct SMTP** - Alıcının mail sunucusunu doğrudan test eder
 
-## ⚠️ Important Notes
+## 📷 Ekran Görüntüleri
 
-- Modern email systems have strong anti-spam measures
-- Test emails might be filtered or blocked
-- This tool is designed for testing purposes only
-- Some services might require additional configuration
+Aşağıdaki görseller, uygulamanın çalışma sürecini göstermektedir:
 
-## 🔒 Security
+1. ![Ekran 1](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2lfjHhVX_xBKXWLuW2PCeCqSVSOxkxc1R_gCyY5O85EsO_gQWlhIwjG65_6VQWeNW3aRC5Z3ybkg3lfR0lJV8KwoTuN6-7wVi2f_kuiGyly7kw7P4GMsq8r55xJYmDnLCvNuW-PsIZI5tF_qHarnrqbrKAkt-uoljbxZVMu-eWXHGDGDxrIYP-9SK_Jo/s16000/ekran1.png)
 
-This tool is designed for legitimate testing purposes only. Please ensure you have proper authorization before testing email servers.
+2. ![Ekran 2](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiM9SrBpQUKIuVGUZZfrhBOlQdQOTRuiujWYDMhO_9CNf3bUH-aZwuKImV0z2Tj0g-GDjya_r5-nYftMJpObZWqvFZefsdfdIfPeKM-po1TPOwSB-AHqIS1j85CUmYz5TRG3lj7KqL-PpxYIrPudYMdfVqcCMDTaqGDcDv8cHxhaixMmHFgmce_X-hHJX8/s16000/ekran2.png)
 
-## 📝 License
+3. ![Ekran 3](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcdNi0mRifbmBuFwWB-A1iTKm8XXqN83uYVNz_NM6ivDu8cv_sBvc6QTPKF6fJKd5VLDw1ocM2ierA57ic7jiUUnHqg01LOyBAYrYsEh5leUZAobUa7QsLhGTTe5j72dywfk56u9zP0di6vH2zCrYuHgkDbcuTPQRU5RJ-XRUdQ10AeFK1GnxjltaaH7k/s16000/ekran3.png)
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## ⚠️ Önemli Notlar
 
-## 🤝 Contributing
+- Modern e-posta sistemleri güçlü spam önleme önlemlerine sahiptir.
+- Test e-postaları spam klasörüne düşebilir veya tamamen engellenebilir.
+- Bu araç yalnızca test amaçlı tasarlanmıştır.
+- Bazı servisler ek yapılandırmalar gerektirebilir.
 
-Contributions, issues, and feature requests are welcome!
+## 🔒 Güvenlik
 
-## ⭐ Support
+Bu araç yalnızca yasal test amaçlı tasarlanmıştır. Lütfen e-posta sunucularını test etmeden önce uygun izinlere sahip olduğunuzdan emin olun.
 
-If you find this tool helpful, please give it a star!
+## 📝 Lisans
 
-```
+Bu proje **MIT Lisansı** ile lisanslanmıştır. Detaylar için LICENSE dosyasına bakabilirsiniz.
+
+## 🤝 Katkıda Bulunma
+
+Geliştirmeler, hata bildirimleri ve yeni özellik talepleri memnuniyetle karşılanır!
+
+## ⭐ Destek
+
+Eğer bu aracı faydalı bulduysanız, GitHub deposuna ⭐ vererek destek olabilirsiniz!
