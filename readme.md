@@ -46,8 +46,6 @@ Etkileşimli komut istemini takip edin:
 ## 🛠️ Kullanılabilir Servisler
 
 - **FormSubmit** - API anahtarı gerektirmeyen form-email dönüştürücü
-- **Anonymous Email** - Basit web tabanlı form gönderimi
-- **Web Form** - HTML form gönderimi tekniği
 - **Direct SMTP** - Alıcının mail sunucusunu doğrudan test eder
 
 ## 📷 Ekran Görüntüleri
